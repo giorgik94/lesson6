@@ -1,0 +1,12 @@
+@keyframes cloud1 {
+	from {top: 0; left: 0;}
+	to {top: 0; left: 70%;}
+}
+@keyframes cloud2 {
+	from {top: 65%; left: 0;}
+	to {top: 65%; left: 70%}
+}
+@keyframes plane {
+	from {top: 20%; left: 70%;}
+	to {top: 20%; left: 0;}
+}

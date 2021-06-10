@@ -1,0 +1,39 @@
+.background {
+	width: 100%;
+	position: relative;
+}
+.plane {
+	width: 350px;
+	position: absolute;
+	top: 20%;
+	left: 70%;
+	animation: plane 30s linear infinite;
+	transition: all 3s ease;
+}
+.cloud1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: cloud1 30s linear infinite;
+}
+.cloud2 {
+	position: absolute;
+	top: 65%;
+	left: 0;
+	animation: cloud2 30s linear infinite;
+}
+.rotateplane {
+	width: 250px;
+	position: absolute;
+	top: 20%;
+	left: 70%;
+	z-index: 1;
+	transition: all 5s ease;
+}
+.rotateplane:hover {
+	width: 400px;
+	transform: rotate(45deg);
+}
+.plane:hover {
+	width: 450px;
+}
